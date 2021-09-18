@@ -1,5 +1,5 @@
 # GSM-SIM-900L
-<h1> Avisador de alarma activada a través de llamadas de telefono moóil </h1>
+<h1> Avisador de alarma activada a través de llamadas de telefono móvil </h1>
 
 Actualmente la central de alarma hace las llamadas por telefono fijo. Esre proyecto sirve para para dar de baja el telefono fijo (20€/mes=) y hacer las llamadas a través de la línea móvil (0€/mes).
 
