@@ -20,8 +20,8 @@ El objetivo es aprovechar un sistema de alarma ya montado que hace uso de linea 
 
 
 <h3> Funcionamiento </h3>
-El Arduino nano está de forma permanente realizando una lectura de una entrada digital, está entrada digital está conectada a una salida del sistema de alarma que solo se activa cuando se detecta una incidencia, cuando se activa circulan 12V, por lo tanto, con el convertidor buck se reducen a 4.5V para no dañar el arduino. <br>
-Después de detectar que la entrada está en estado el programa realiza X número de llamadas a distintos numeros de telefono para avisar de la intrusión.
+El Arduino nano está de forma permanente realizando una lectura de una entrada digital. Esta entrada digital está conectada a una salida del sistema de alarma que solo se activa cuando se detecta una incidencia, cuando se activa circulan 12V. Gracias al convertidor buck se reduce el voltaje a 4.5V para no dañar el Arduino. <br>
+Después de detectar que la entrada está en estado alto el programa realiza X número de llamadas a distintos numeros de telefono para avisar de la intrusión.
 
  <br>
 <img src="./esquema.png">
