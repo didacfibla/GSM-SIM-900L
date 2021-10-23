@@ -1,12 +1,18 @@
 # GSM-SIM-900L
-<h1> Avisador de alarma activada a través de llamadas de telefono móvil </h1>
+<h1> Arduino GSM </h1>
 
-Actualmente la central de alarma hace las llamadas por telefono fijo. Esre proyecto sirve para para dar de baja el telefono fijo (20€/mes) y hacer las llamadas a través de la línea móvil (0€/mes).
+Senscillo programa desarrollado en C++ que permite realizar llamadas telefónicas por la línea movil gsm cuando el Arudino Nano detecta que una entrada que está continuamente leyendo pasa a estado alto.
+<br>
+El objetivo es aprovechar un sistema de alarma ya montado, esta sistema de alarma hace uso de linea de telefono fijo. Con este programa podemos eliminar el coste mensual de la linea de telefono fijo y realizar las llamadas de aviso a través de una línea móvil con un coste de 0€ / mes.
 
-<h4> Funcionamiento </h4>
-Mientras la alarma no está activada en Vin tenemos 0V y no se realiza ninguna acción.
-Cuando se activa la alarma en Vin hay 12V, con el convertidos buck lo reducimos a 4.5V para que Arduino pueda leer ese voltaje (el voltaje máximo que puede leer son 5V).
-Entonces Arduino detectará que el PIN A3 está en estado alto y realizará 5 llamadas a el numero1 y 5 llamadas a el numero 2. <br>
-Cuando se activa Vin está activo durante 4 minutos, por lo tanto, al acabar las llamadas el Arduino hace una espera de 4 minutos para que no se reactive otra vez.<br>
+<h4> Componentes </h4>
+Arduino Nano V3.0
+SiM 900 L
+Buck converter
+Batrías de litio 18650
+BMS
+Interruptor
+
  <br>
 <img src="./esquema.png">
+El esquema está pendiende de correción
