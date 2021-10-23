@@ -3,7 +3,7 @@
 
 <h3> Descripción y objetivo del proyecto </h3>
 
-Senscillo programa desarrollado en C++ que permite realizar llamadas telefónicas por la línea movil gsm cuando el Arudino Nano detecta que una entrada que está continuamente leyendo pasa a estado alto. <br>
+Senscillo programa desarrollado en C++ que permite realizar llamadas telefónicas por la línea movil gsm cuando el Arduino Nano detecta que una entrada que está continuamente leyendo pasa a estado alto. <br>
 
 El objetivo es aprovechar un sistema de alarma ya montado que hace uso de linea de telefono fijo para avisar de las incidencias. Con este programa podemos eliminar el coste mensual de la linea de telefono fijo y realizar las llamadas de aviso a través de una línea móvil con un coste de 0€ / mes. <br><br>
 
