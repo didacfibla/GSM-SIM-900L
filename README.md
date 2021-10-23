@@ -10,10 +10,11 @@ El objetivo es aprovechar un sistema de alarma ya montado que hace uso de linea 
 <h3> Componentes necesarios </h3>
 <ul> 
  <li> Arduino Nano V3.0. </li>
- <li> SiM 900 L. </li>
- <li> Buck converter. </li>
- <li> Batrías de litio 18650. </li>
- <li> BMS. </li>
+ <li> SiM 900 L. (Módulo encargado de realizar las llamadas)</li>
+ <li> Buck converter. (Para reducir de 12V a 5V aprox.)</li>
+ <li> 2 baterías de litio 18650. (3,7V) </li>
+ <li> BMS 2s. (Gestor de baterías que protege ante sobrecargas, sobredescargas, cortocircuitos y además equilibra la carga entre ambas celdas)</li>
+ <li> 1 resistencia de 10 kΩ </li>
  <li> Interruptor. </li>
 </ul>
 
