@@ -22,4 +22,4 @@ Después de detectar que la entrada está en estado alto el programa realiza X n
 
  <br>
 <img src="./esquema.png">
-El esquema está pendiende de correción
+
