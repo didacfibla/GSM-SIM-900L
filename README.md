@@ -17,7 +17,7 @@ Senscillo programa desarrollado en C++ que permite realizar llamadas telefónica
 
 
 <h3> Funcionamiento </h3>
-El Arduino nano está de forma permanente realizando una lectura de una entrada digital. Esta entrada digital está conectada a una salida del sistema de alarma que solo se activa cuando se detecta una incidencia, cuando se activa circulan 12V. Gracias al convertidor buck se reduce el voltaje a 4.5V para no dañar el Arduino. <br>
+El Arduino nano está de forma permanente realizando una lectura de una entrada digital. Esta entrada digital está conectada a una salida del sistema de alarma que solo se activa cuando se detecta una incidencia, cuando se activa circulan [~4.5, 5V] <br>
 Después de detectar que la entrada está en estado alto el programa realiza X número de llamadas a distintos numeros de telefono para avisar de la intrusión.
 
  <br>
