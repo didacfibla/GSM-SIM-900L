@@ -52,7 +52,7 @@ void loop(){
 
 
 void llamar(String numeroTel){
-  SIM900.println(numeroTel); //SIM900.println("ATD618612924;");
+  SIM900.println(numeroTel); //SIM900.println("ATDXXXXXXXXX;");
   delay(20000); // Espera 20s mientras realiza la llamada
   SIM900.println("ATH"); //Colgar la llamada
   delay(1000);
